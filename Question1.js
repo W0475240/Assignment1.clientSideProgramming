@@ -25,7 +25,7 @@ function func(inputString)
       return inputString.slice(1, -1);
     }
     
- 
+ ///
 const input1 = "Triscuit";
 const input2 = "Cracker";
 const input3 = "hello";
