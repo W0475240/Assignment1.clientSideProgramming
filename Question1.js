@@ -26,6 +26,15 @@ function func(inputString)
     }
     
  
+const input1 = "Triscuit";
+const input2 = "Cracker";
+const input3 = "hello";
+const input4 = "harsh";
+
+console.log(func(input1));
+console.log(func(input2));
+console.log(func(input3));
+console.log(func(input4));
 
 }
   
