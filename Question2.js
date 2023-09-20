@@ -36,3 +36,8 @@ function func(arr)
 
 
 
+// Test  with different input arrays and show results
+console.log(func([1, 2, 3, 6, 9, 34, 2, 6]));
+console.log(func([3, 2, 7, 5, 6, 7, 3, 8, 9, 10, 23, 2, 1, 2, 3]));
+console.log(func([100, 101, 102, 3, 4, 5, 6, 9]));
+console.log(func([3, 2, 1, 1, 1, 1, 1]));
