@@ -11,7 +11,7 @@ function func(inputString)
     const lowerCaseString = inputString.toLowerCase();
 
     // if the first and last characters of the input string are the same 
-    if (lowerCaseString[0] === lowerCaseString[inputString.length - 1]) 
+    if (lowerCaseString.charAt[0] === lowerCaseString[inputString.length - 1]) 
     { 
       
       // If they are the same, reverse the string and return it
@@ -24,12 +24,12 @@ function func(inputString)
       // return the modified string
       return inputString.slice(1, -1);
     }
-    
+}
  // Adding example and inputs
-const input1 = "Triscuit";
-const input2 = "Cracker";
-const input3 = "hello";
-const input4 = "harsh";
+ const input1 = "Triscuit";
+ const input2 = "Cracker";
+ const input3 = "goog";
+ const input4 = "Shaghayegh";
 
 // getting output
 console.log(func(input1));
@@ -37,7 +37,7 @@ console.log(func(input2));
 console.log(func(input3));
 console.log(func(input4));
 
-}
+
   
 
 
