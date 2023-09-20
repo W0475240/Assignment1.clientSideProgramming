@@ -58,3 +58,6 @@ function createRandomNumbers()
   return numbers;
 }
 
+// Generate an array of random numbers
+const randomNumbers = createRandomNumbers();
+
