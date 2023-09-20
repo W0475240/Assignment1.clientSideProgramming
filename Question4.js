@@ -43,3 +43,18 @@ function prime(number)
   return true;
 }
 
+// function for making an array for creating random numbers
+function createRandomNumbers() 
+{
+  const numbers = [];
+
+  for (let i = 0; i < 10; i++) 
+  {  
+
+    // create random numbers betweeen 1 and 100
+    numbers.push(Math.floor(Math.random() * 100) + 1); 
+  }
+
+  return numbers;
+}
+
