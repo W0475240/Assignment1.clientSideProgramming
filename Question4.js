@@ -61,3 +61,11 @@ function createRandomNumbers()
 // Generate an array of random numbers
 const randomNumbers = createRandomNumbers();
 
+
+// check if the number is prime then write that
+for (let i = 0; i < 10; i++) 
+{
+  const number = randomNumbers[i];
+  const primeText = prime(number) ? 'yes' : 'no';
+  console.log(number + "-" + primeText);
+}
