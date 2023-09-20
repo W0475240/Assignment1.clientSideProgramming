@@ -6,3 +6,7 @@ Title: Question 3
 
 // Define the date 
 const myNextBirthday = new Date(2024, 5, 15, 0, 0, 0);
+
+// Get the current date and time
+const currentDate = new Date();
+
