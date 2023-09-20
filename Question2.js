@@ -13,7 +13,7 @@ function func(arr)
   var flag = false; // Initialize a flag to track consecutive elements
 
  
-  }
+  
   // Loop through the input array
   for(var i=0;i<arr.length;i++)
   {
@@ -34,7 +34,27 @@ function func(arr)
     }
   }
 
-
+  consecutives_arr.sort( (a,b) => 
+  { 
+    // if the length of the arrays are equal, sort by sum else sort by length
+    if(a.length == b.length)
+    {
+      return b.reduce( (a,b) => a+b ) - a.reduce( (a,b) => a+b );
+    }
+    else
+    { 
+       // Otherwise, sort by length
+      return b.length - a.length;
+    }
+  });
+   // If the first sequence is empty, return 0, otherwise return the sum of its elements
+  if(consecutives_arr[0].length == 0)
+  {
+    return 0;
+  }
+  // return the sum of the first array
+  return consecutives_arr[0].reduce( (a,b) => a+b );
+}
 
 // Test  with different input arrays and show results
 console.log(func([1, 2, 3, 6, 9, 34, 2, 6]));
