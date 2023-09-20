@@ -11,7 +11,7 @@ const myNextBirthday = new Date(2024, 5, 15, 0, 0, 0);
 const currentDate = new Date();
 
 // Calculate the time difference
-
+const timeDifference = myNextBirthday - currentDate;
 
 // Calculate the remaining time 
 
