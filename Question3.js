@@ -10,3 +10,10 @@ const myNextBirthday = new Date(2024, 5, 15, 0, 0, 0);
 // Get the current date and time
 const currentDate = new Date();
 
+// Calculate the time difference
+
+
+// Calculate the remaining time 
+
+
+// Output the remaining time 
