@@ -28,7 +28,7 @@ function func(inputString)
  // Adding example and inputs
  const input1 = "Triscuit";
  const input2 = "Cracker";
- const input3 = "goog";
+ const input3 = "google";
  const input4 = "Shaghayegh";
 
 // getting output
