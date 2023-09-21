@@ -11,7 +11,7 @@ function func(inputString)
     const lowerCaseString = inputString.toLowerCase();
 
     // if the first and last characters of the input string are the same 
-    if (lowerCaseString.charAt[0] === lowerCaseString[inputString.length - 1]) 
+    if (lowerCaseString.charAt[0] === lowerCaseString.charAt[inputString.length - 1]) 
     { 
       
       // If they are the same, reverse the string and return it
