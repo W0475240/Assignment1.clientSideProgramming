@@ -24,12 +24,14 @@ function prime(number)
   {
     return false;
   }
-
+  // start checking from 5
   let i = 5;
 
   //  while loop for checking prime candidates
   while (i * i <= number) 
-  {
+  { 
+    
+    //Check divisibility by i and i+2
     if (number % i === 0 || number % (i + 2) === 0) 
     {
       return false;
